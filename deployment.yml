@@ -21,6 +21,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  python-summarization-flask
+      # Changed the image name
         image:  varma1909/flask_summarization_app:latest
         ports:
         - containerPort: 8000
